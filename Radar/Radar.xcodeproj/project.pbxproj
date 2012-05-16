@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C8A30A1563A6EE005818A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8A3091563A6EE005818A3 /* UIKit.framework */; };
+		57C8A30C1563A6EE005818A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8A30B1563A6EE005818A3 /* Foundation.framework */; };
+		57C8A30E1563A6EE005818A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8A30D1563A6EE005818A3 /* CoreGraphics.framework */; };
+		57C8A3141563A6EE005818A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C8A3121563A6EE005818A3 /* InfoPlist.strings */; };
+		57C8A3161563A6EE005818A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8A3151563A6EE005818A3 /* main.m */; };
+		57C8A31A1563A6EE005818A3 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8A3191563A6EE005818A3 /* TWAppDelegate.m */; };
+		57C8A31D1563A6EE005818A3 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8A31C1563A6EE005818A3 /* TWViewController.m */; };
+		57C8A3201563A6EE005818A3 /* TWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C8A31E1563A6EE005818A3 /* TWViewController.xib */; };
+		57C8A3281563A6EE005818A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8A3271563A6EE005818A3 /* SenTestingKit.framework */; };
+		57C8A3291563A6EE005818A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8A3091563A6EE005818A3 /* UIKit.framework */; };
+		57C8A32A1563A6EE005818A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8A30B1563A6EE005818A3 /* Foundation.framework */; };
+		57C8A3321563A6EE005818A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C8A3301563A6EE005818A3 /* InfoPlist.strings */; };
+		57C8A3351563A6EE005818A3 /* RadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8A3341563A6EE005818A3 /* RadarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57C8A32B1563A6EE005818A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C8A2FC1563A6EE005818A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C8A3041563A6EE005818A3;
+			remoteInfo = Radar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57C8A3051563A6EE005818A3 /* Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C8A3091563A6EE005818A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57C8A30B1563A6EE005818A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57C8A30D1563A6EE005818A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57C8A3111563A6EE005818A3 /* Radar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Radar-Info.plist"; sourceTree = "<group>"; };
+		57C8A3131563A6EE005818A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57C8A3151563A6EE005818A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57C8A3171563A6EE005818A3 /* Radar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Radar-Prefix.pch"; sourceTree = "<group>"; };
+		57C8A3181563A6EE005818A3 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		57C8A3191563A6EE005818A3 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		57C8A31B1563A6EE005818A3 /* TWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWViewController.h; sourceTree = "<group>"; };
+		57C8A31C1563A6EE005818A3 /* TWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWViewController.m; sourceTree = "<group>"; };
+		57C8A31F1563A6EE005818A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWViewController.xib; sourceTree = "<group>"; };
+		57C8A3261563A6EE005818A3 /* RadarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C8A3271563A6EE005818A3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		57C8A32F1563A6EE005818A3 /* RadarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadarTests-Info.plist"; sourceTree = "<group>"; };
+		57C8A3311563A6EE005818A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57C8A3331563A6EE005818A3 /* RadarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarTests.h; sourceTree = "<group>"; };
+		57C8A3341563A6EE005818A3 /* RadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C8A3021563A6EE005818A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8A30A1563A6EE005818A3 /* UIKit.framework in Frameworks */,
+				57C8A30C1563A6EE005818A3 /* Foundation.framework in Frameworks */,
+				57C8A30E1563A6EE005818A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8A3221563A6EE005818A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8A3281563A6EE005818A3 /* SenTestingKit.framework in Frameworks */,
+				57C8A3291563A6EE005818A3 /* UIKit.framework in Frameworks */,
+				57C8A32A1563A6EE005818A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C8A2FA1563A6EE005818A3 = {
+			isa = PBXGroup;
+			children = (
+				57C8A30F1563A6EE005818A3 /* Radar */,
+				57C8A32D1563A6EE005818A3 /* RadarTests */,
+				57C8A3081563A6EE005818A3 /* Frameworks */,
+				57C8A3061563A6EE005818A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C8A3061563A6EE005818A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C8A3051563A6EE005818A3 /* Radar.app */,
+				57C8A3261563A6EE005818A3 /* RadarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C8A3081563A6EE005818A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C8A3091563A6EE005818A3 /* UIKit.framework */,
+				57C8A30B1563A6EE005818A3 /* Foundation.framework */,
+				57C8A30D1563A6EE005818A3 /* CoreGraphics.framework */,
+				57C8A3271563A6EE005818A3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57C8A30F1563A6EE005818A3 /* Radar */ = {
+			isa = PBXGroup;
+			children = (
+				57C8A3181563A6EE005818A3 /* TWAppDelegate.h */,
+				57C8A3191563A6EE005818A3 /* TWAppDelegate.m */,
+				57C8A31B1563A6EE005818A3 /* TWViewController.h */,
+				57C8A31C1563A6EE005818A3 /* TWViewController.m */,
+				57C8A31E1563A6EE005818A3 /* TWViewController.xib */,
+				57C8A3101563A6EE005818A3 /* Supporting Files */,
+			);
+			path = Radar;
+			sourceTree = "<group>";
+		};
+		57C8A3101563A6EE005818A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C8A3111563A6EE005818A3 /* Radar-Info.plist */,
+				57C8A3121563A6EE005818A3 /* InfoPlist.strings */,
+				57C8A3151563A6EE005818A3 /* main.m */,
+				57C8A3171563A6EE005818A3 /* Radar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C8A32D1563A6EE005818A3 /* RadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				57C8A3331563A6EE005818A3 /* RadarTests.h */,
+				57C8A3341563A6EE005818A3 /* RadarTests.m */,
+				57C8A32E1563A6EE005818A3 /* Supporting Files */,
+			);
+			path = RadarTests;
+			sourceTree = "<group>";
+		};
+		57C8A32E1563A6EE005818A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C8A32F1563A6EE005818A3 /* RadarTests-Info.plist */,
+				57C8A3301563A6EE005818A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C8A3041563A6EE005818A3 /* Radar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C8A3381563A6EE005818A3 /* Build configuration list for PBXNativeTarget "Radar" */;
+			buildPhases = (
+				57C8A3011563A6EE005818A3 /* Sources */,
+				57C8A3021563A6EE005818A3 /* Frameworks */,
+				57C8A3031563A6EE005818A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radar;
+			productName = Radar;
+			productReference = 57C8A3051563A6EE005818A3 /* Radar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57C8A3251563A6EE005818A3 /* RadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C8A33B1563A6EE005818A3 /* Build configuration list for PBXNativeTarget "RadarTests" */;
+			buildPhases = (
+				57C8A3211563A6EE005818A3 /* Sources */,
+				57C8A3221563A6EE005818A3 /* Frameworks */,
+				57C8A3231563A6EE005818A3 /* Resources */,
+				57C8A3241563A6EE005818A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C8A32C1563A6EE005818A3 /* PBXTargetDependency */,
+			);
+			name = RadarTests;
+			productName = RadarTests;
+			productReference = 57C8A3261563A6EE005818A3 /* RadarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C8A2FC1563A6EE005818A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 57C8A2FF1563A6EE005818A3 /* Build configuration list for PBXProject "Radar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57C8A2FA1563A6EE005818A3;
+			productRefGroup = 57C8A3061563A6EE005818A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C8A3041563A6EE005818A3 /* Radar */,
+				57C8A3251563A6EE005818A3 /* RadarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C8A3031563A6EE005818A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8A3141563A6EE005818A3 /* InfoPlist.strings in Resources */,
+				57C8A3201563A6EE005818A3 /* TWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8A3231563A6EE005818A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8A3321563A6EE005818A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57C8A3241563A6EE005818A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C8A3011563A6EE005818A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8A3161563A6EE005818A3 /* main.m in Sources */,
+				57C8A31A1563A6EE005818A3 /* TWAppDelegate.m in Sources */,
+				57C8A31D1563A6EE005818A3 /* TWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8A3211563A6EE005818A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8A3351563A6EE005818A3 /* RadarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C8A32C1563A6EE005818A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C8A3041563A6EE005818A3 /* Radar */;
+			targetProxy = 57C8A32B1563A6EE005818A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57C8A3121563A6EE005818A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8A3131563A6EE005818A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57C8A31E1563A6EE005818A3 /* TWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8A31F1563A6EE005818A3 /* en */,
+			);
+			name = TWViewController.xib;
+			sourceTree = "<group>";
+		};
+		57C8A3301563A6EE005818A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8A3311563A6EE005818A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C8A3361563A6EE005818A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57C8A3371563A6EE005818A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C8A3391563A6EE005818A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Radar/Radar-Prefix.pch";
+				INFOPLIST_FILE = "Radar/Radar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57C8A33A1563A6EE005818A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Radar/Radar-Prefix.pch";
+				INFOPLIST_FILE = "Radar/Radar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57C8A33C1563A6EE005818A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Radar.app/Radar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Radar/Radar-Prefix.pch";
+				INFOPLIST_FILE = "RadarTests/RadarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57C8A33D1563A6EE005818A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Radar.app/Radar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Radar/Radar-Prefix.pch";
+				INFOPLIST_FILE = "RadarTests/RadarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C8A2FF1563A6EE005818A3 /* Build configuration list for PBXProject "Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8A3361563A6EE005818A3 /* Debug */,
+				57C8A3371563A6EE005818A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C8A3381563A6EE005818A3 /* Build configuration list for PBXNativeTarget "Radar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8A3391563A6EE005818A3 /* Debug */,
+				57C8A33A1563A6EE005818A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57C8A33B1563A6EE005818A3 /* Build configuration list for PBXNativeTarget "RadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8A33C1563A6EE005818A3 /* Debug */,
+				57C8A33D1563A6EE005818A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C8A2FC1563A6EE005818A3 /* Project object */;
+}
